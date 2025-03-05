@@ -8,3 +8,11 @@ def sumLoadWeight(n, weight = 0):
 
 
 print(sumLoadWeight(sampleManifest))
+
+
+detailedSampleManifest = []
+
+def internationalLoadCalculator(n, weight = 0):
+    """Calculate total weight, accounting for lbs/cm distinction and dim standard"""
+    for x in range(len(n)):
+        pass
